@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Background from "./components/Background";
-import ParticlesBG from "./components/ParticlesBG";
 import MouseGlow from "./components/MouseGlow";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -28,7 +27,6 @@ function App() {
   return (
     <>
       <Background />
-      <ParticlesBG />
       <MouseGlow />
 
       <Navbar />

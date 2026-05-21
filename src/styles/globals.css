@@ -93,3 +93,32 @@ body {
   box-shadow:
     0 10px 30px rgba(124,58,237,.25);
 }
+
+.floating-particles {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 999px;
+  opacity: .25;
+  animation: floatParticle linear infinite;
+}
+
+@keyframes floatParticle {
+  from {
+    transform:
+      translateY(120vh)
+      translateX(0);
+  }
+
+  to {
+    transform:
+      translateY(-20vh)
+      translateX(40px);
+  }
+}
