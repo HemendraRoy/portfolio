@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Attendify",
     image: attendify,
-    link: "#",
+    link: "https://www.youtube.com/watch?v=JYDQlPr4ZnM",
     description:
       "Cross-platform Expo mobile app for attendance management, classroom tools and AI assistant chatbot.",
     tech: ["React Native", "Expo", "AI"],
