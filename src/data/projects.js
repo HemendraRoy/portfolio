@@ -16,7 +16,7 @@ const projects = [
   {
     title: "ShopStorm",
     image: shopstorm,
-    link: "https://shopstorm.onrender.com",
+    link: "https://shopstormbuy.onrender.com",
     description:
       "Full stack ecommerce website using React frontend and Spring Boot backend with authentication and product management.",
     tech: ["React", "Spring Boot", "Authentication", "PostgreSQL"],
